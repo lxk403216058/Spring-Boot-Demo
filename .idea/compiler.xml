@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="async" />
+        <module name="security" />
+        <module name="data" />
+        <module name="shiro" />
+        <module name="web" />
+        <module name="rms-security" />
+        <module name="mybatis" />
+        <module name="springsecurity" />
+        <module name="shiro-quickstart" />
+        <module name="swagger" />
+        <module name="redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="async" target="1.8" />
+      <module name="data" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="rms-security" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="shiro" target="1.8" />
+      <module name="shiro-quickstart" target="1.5" />
+      <module name="springsecurity" target="1.8" />
+      <module name="swagger" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="async" options="-parameters" />
+      <module name="data" options="-parameters" />
+      <module name="mybatis" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="rms-security" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="shiro" options="-parameters" />
+      <module name="springsecurity" options="-parameters" />
+      <module name="swagger" options="-parameters" />
+      <module name="web" options="-parameters" />
+    </option>
+  </component>
+</project>
